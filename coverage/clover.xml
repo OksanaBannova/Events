@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1725337359270" clover="3.2.0">
-  <project timestamp="1725337359270" name="All files">
+<coverage generated="1725339362993" clover="3.2.0">
+  <project timestamp="1725339362994" name="All files">
     <metrics statements="24" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="2" elements="33" coveredelements="6" complexity="0" loc="24" ncloc="24" packages="1" files="2" classes="2"/>
     <file name="Board.js" path="C:\Users\Artem\Desktop\Events\src\js\Board.js">
       <metrics statements="15" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
