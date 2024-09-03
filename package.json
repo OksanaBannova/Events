@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development",
+    "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "test": "jest",
     "coverage": "jest --coverage",
+    "doc": "jsdoc -c jsdoc.conf.json",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
+    "preshow:doc": "npm run doc",
+    "show:doc": "live-server doc",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
